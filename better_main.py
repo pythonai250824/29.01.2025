@@ -15,6 +15,7 @@ cursor = conn.cursor()
 
 def execute_modify_query(_cursor, _conn, query) -> None:
     '''
+    execute a modify query (insert, update, delete)
     # PEP8
     :param _cursor: sqlite cursor
     :param _conn:  sqlite connection
@@ -24,8 +25,25 @@ def execute_modify_query(_cursor, _conn, query) -> None:
     _cursor.execute(query)
     _conn.commit()
 
+def execute_read_query(_cursor, query) -> list:
+    '''
+    execute a read query (select)
+    :param _cursor: sqlite cursor
+    :param _conn:  sqlite connection
+    :param query: sql string query
+    :return: list of dict
+    '''
+    _cursor.execute(query)
+    _rows = _cursor.fetchall()
+    _answer = []
+    for _row in _rows:
+        _answer.append(dict(_row))
+    return _answer
+
+
+
 # 4b
-execute_modify_query(cursor, conn, '''DROP TABLE users''')
+execute_modify_query(cursor, conn, '''DROP TABLE IF EXISTS users''')
 
 # 4b
 cursor.execute('''
