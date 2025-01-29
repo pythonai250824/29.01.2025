@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="24.8.3">
+  <diagram name="Page-1" id="7NiMzBm2c8byR2hBj-5u">
+    <mxGraphModel dx="685" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yg4UPLzPr-kg5C_pHXLq-1" value="SQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="460" y="230" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yg4UPLzPr-kg5C_pHXLq-2" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="270" as="sourcePoint" />
+            <mxPoint x="450" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yg4UPLzPr-kg5C_pHXLq-4" value="QUERY" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yg4UPLzPr-kg5C_pHXLq-2">
+          <mxGeometry x="-0.12" y="2" relative="1" as="geometry">
+            <mxPoint x="-4" y="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yg4UPLzPr-kg5C_pHXLq-3" value="DB BROWSER&lt;div&gt;DBEAVER&lt;/div&gt;&lt;div&gt;DATA GRIP&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yg4UPLzPr-kg5C_pHXLq-5" value="PYTHON&lt;div&gt;(pycharm)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yg4UPLzPr-kg5C_pHXLq-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="360" width="540" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="yg4UPLzPr-kg5C_pHXLq-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;1. import sqlite3&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;2. connector create&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;3. cursor create&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;4.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;READ: cursor.execute (&#39;&amp;nbsp; SQL Query&amp;nbsp; &#39;)&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;fetch all, one, x&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp;-- read , foreach =&amp;gt; list [ list, dict, tuple ]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;WRITE/DELETE: cursor.execute (&#39;&amp;nbsp; SQL Query&amp;nbsp; &#39;)&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;fetch one ? how many changed? new id?&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp;-- connection.commit&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;5. connection close&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;border=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="370" width="525" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="yg4UPLzPr-kg5C_pHXLq-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.454;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yg4UPLzPr-kg5C_pHXLq-5" target="yg4UPLzPr-kg5C_pHXLq-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="420" as="sourcePoint" />
+            <mxPoint x="760" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yg4UPLzPr-kg5C_pHXLq-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;write query&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Play&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="140" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
